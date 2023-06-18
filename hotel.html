@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Hotels | Trisvan</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="hotel.css">
+	<link rel="stylesheet" type="text/css" href="Icon/fontawesome-5.2.0/css/all.min.css">
+
+	<script type="text/javascript" src="jquery-3.3.1/jquery-3.3.1.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="Carting ( Rating & Filter)/star-rating-svg/src/css/star-rating-svg.css">
+	<script type="text/javascript" src="Carting ( Rating & Filter)/star-rating-svg/src/jquery.star-rating-svg.js"></script>
+</head>
+<body>
+	
+	<div class="header-top col-12">
+		<div class="wrap col-9">
+			<div class="menu">
+				<a href="#"><img src="img/id.jpg">IND <i class="fa fa-angle-down"></i></a>
+				<div class="dropdown">
+					<a href="#"><img src="img/id.jpg">IND</a>
+					<a href="#"><img src="img/en.jpg">ENG</a>
+				</div>
+			</div>
+			<div class="menu">
+				<a href="#">IDR <i class="fa fa-angle-down"></i></a>
+				<div class="dropdown">
+					<a href="#">IDR</a>
+					<a href="#">USD</a>
+				</div>
+			</div>
+		</div>
+		<div class="account col-3">
+			<div class="menu">
+				<a href="#">
+					<i class="fa fa-user-circle"></i>My Account<i class="fa fa-angle-down"></i>
+				</a>
+				<div class="dropdown">
+					<a href="#">Register</a>
+					<a href="#">Login</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="header-bottom col-12">
+		<div class="logo col-3">
+			<h1><span>Tris</span>Van</h1>
+		</div>
+		<div class="menu1 col-5">
+			<div class="wrap1">
+				<a href="index.html">Home</a>
+				<div class="space menu">
+					<a href="#">Tours<i class="fa fa-angle-down"></i></a>
+					<div class="dropdown">
+						<a href="#">Domestic</a>
+						<a href="#">Inbound</a>
+					</div>
+				</div>
+				<div class="space menu">
+					<a href="#">Lodges<i class="fa fa-angle-down"></i></a>
+					<div class="dropdown">
+						<a href="hotel.html">Hotel</a>
+						<a href="#">Villa</a>
+					</div>
+				</div>
+				<div class="space menu">
+					<a href="#">Transport<i class="fa fa-angle-down"></i></a>
+					<div class="dropdown">
+						<a href="#">Plane</a>
+						<a href="#">Train</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="search col-2">
+			<input type="text" name="search" placeholder="Search...">
+			<div class="btn col-1" style="margin-left: -10px;">
+				<a href="hotel.html"><i class="fa fa-search"></i></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="back col-12">
+		<div class="tul col-12">
+			<h1>Daftar Hotel Terlengkap</h1>
+			<h1>Dengan Fasilitas Terbaik Dan Termewah</h1>
+		</div>
+	</div>
+
+	<div class="judul col-12">
+		<div class="map col-9">
+			<i class="fa fa-globe"></i><h2>Bali | <span>hasil 500 pencarian</span></h2>
+		</div>
+		<button>Filter <i class="fa fa-sort"></i></button>
+	</div>
+	
+	<div class="list col-12">
+		<div class="filter col-3">
+			<h3>Property Rating</h3>
+			<input type="checkbox" name="room">2 Stars <br>
+			<input type="checkbox" name="room">3 Stars <br>
+			<input type="checkbox" name="room">4 Stars <br>
+			<input type="checkbox" name="room">5 Stars <br>
+			<input type="checkbox" name="room">Unrated <br>
+			<hr>
+			<h3>Room Types</h3>
+			<input type="checkbox" name="room">Single Rooms <br>
+			<input type="checkbox" name="room">Double Rooms <br>
+			<input type="checkbox" name="room">Studio Rooms <br>
+			<input type="checkbox" name="room">Kingsize Rooms <br>
+			<input type="checkbox" name="room">Presidentsuit Rooms <br>
+			<input type="checkbox" name="room">Murphy Rooms <br>
+			<input type="checkbox" name="room">Connecting Rooms <br>
+			<hr>
+			<h3>Room Facilities</h3>
+			<input type="checkbox" name="room">Private Pool <br>
+			<input type="checkbox" name="room">Balcony <br>
+			<input type="checkbox" name="room">Kitchen/Kitchenette <br>
+			<input type="checkbox" name="room">Kingsize Rooms <br>
+			<input type="checkbox" name="room">Hot Tub <br>
+			<input type="checkbox" name="room">Spa Bath <br>
+			<hr>
+			<h3>Room Accessibility</h3>
+			<input type="checkbox" name="room">Wheelchair accessible <br>
+			<input type="checkbox" name="room">Toilet with grab rails <br>
+			<input type="checkbox" name="room">Adapted bath <br>
+			<input type="checkbox" name="room">Roll-in shower <br>
+			<input type="checkbox" name="room">Walk-in shower <br>
+			<input type="checkbox" name="room">Raised toilet <br>
+			<input type="checkbox" name="room">Lowered sink <br>
+			<input type="checkbox" name="room">Shower chair <br>
+		</div>
+		<div class="hotel col-7">
+			<img src="img/hotel-apurva-kempinski.jpg">
+			<div class="tulisan">
+				<h3>The Apurva Kempinski Bali</h3>
+				<div class="my-rating-7"></div>
+				<p><i class="fa fa-map-marker-alt"></i> Nusa Dua, Badung - 4.3km</p>
+				<p class="pad">IDR 5.000.000 <span>/kamar/malam</span></p>
+				<span class="view-3"><a href="#" class="view">Lihat Detail</a></span>
+				<span class="view-2"><a href="pesan.html" class="view-1">Pesan Sekarang</a></span>
+			</div>
+		</div>
+		<div class="hotel hotel-1 col-7">
+			<img src="img/hotel-alea.jpg">
+			<div class="tulisan">
+				<h3>The Alea Hotel Seminyak</h3>
+				<div class="my-rating-7"></div>
+				<p><i class="fa fa-map-marker-alt"></i> Nusa Dua, Badung - 4.3km</p>
+				<p class="pad">IDR 5.000.000 <span>/kamar/malam</span></p>
+				<span class="view-3"><a href="#" class="view">Lihat Detail</a></span>
+				<span class="view-2"><a href="pesan.html" class="view-1">Pesan Sekarang</a></span>
+			</div>
+		</div>
+		<div class="hotel col-7">
+			<img src="img/hotel-dafam-savvoya.jpg">
+			<div class="tulisan">
+				<h3>Hotel Dafam Savvoya Seminyak</h3>
+				<div class="my-rating-7"></div>
+				<p><i class="fa fa-map-marker-alt"></i> Nusa Dua, Badung - 4.3km</p>
+				<p class="pad">IDR 5.000.000 <span>/kamar/malam</span></p>
+				<span class="view-3"><a href="#" class="view">Lihat Detail</a></span>
+				<span class="view-2"><a href="pesan.html" class="view-1">Pesan Sekarang</a></span>
+			</div>
+		</div>
+		<div class="hotel col-7">
+			<img src="img/hotel-mercure.jpg">
+			<div class="tulisan">
+				<h3>Mercure Kuta Bali</h3>
+				<div class="my-rating-7"></div>
+				<p><i class="fa fa-map-marker-alt"></i> Nusa Dua, Badung - 4.3km</p>
+				<p class="pad">IDR 5.000.000 <span>/kamar/malam</span></p>
+				<span class="view-3"><a href="#" class="view">Lihat Detail</a></span>
+				<span class="view-2"><a href="pesan.html" class="view-1">Pesan Sekarang</a></span>
+			</div>
+		</div>
+		<div class="hotel col-7">
+			<img src="img/hotel-aryaduta.jpg">
+			<div class="tulisan">
+				<h3>Aryaduta Bali</h3>
+				<div class="my-rating-7"></div>
+				<p><i class="fa fa-map-marker-alt"></i> Nusa Dua, Badung - 4.3km</p>
+				<p class="pad">IDR 5.000.000 <span>/kamar/malam</span></p>
+				<span class="view-3"><a href="#" class="view">Lihat Detail</a></span>
+				<span class="view-2"><a href="pesan.html" class="view-1">Pesan Sekarang</a></span>
+			</div>
+		</div>
+	</div>
+
+	<div class="prev col-11">
+		<a href="#">Next &raquo;</a><a href="#">&laquo; Prev</a>
+	</div>
+
+	<div class="footer-top col-12">
+		<div class="help col-3">
+			<h3>Butuh bantuan?</h3>
+			<p><i class="fa fa-phone"></i> (+62) 821 1234 1234</p>
+			<p><i class="fa fa-envelope"></i> help@trivan.com</p>
+		</div>
+		<div class="about col-3">
+			<h3>About</h3>
+			<li><a href="#">About us</a>
+			<li><a href="#">FAQ</a>
+			<li><a href="#">Login</a>
+			<li><a href="#">Register</a>
+			<li><a href="#">Terms and condition</a>
+		</div>
+		<div class="discover col-3">
+			<h3>Discover</h3>
+			<li><a href="#">Community Blog</a></li>
+			<li><a href="#">Tour guide</a></li>
+			<li><a href="#">Wish list</a></li>
+			<li><a href="#">Gallery</a></li>
+		</div>
+		<div class="produk col-3">
+			<h3>Produk</h3>
+			<li><a href="#">Pesawat</a></li>
+			<li><a href="#">Hotel</a></li>
+			<li><a href="#">Sewa mobil</a></li>
+			<li><a href="#">Tour</a></li>
+		</div>
+	</div>
+
+	<div class="footer-bottom col-12">
+		<p>Trisvan &copy; Copyrights 2020</p>
+	</div>
+
+	<script type="text/javascript">
+		$(".my-rating-7").starRating({
+  			readOnly: true,
+  			initialRating: 4,
+  			starSize: 15,
+  			starShape: 'rounded'
+		});
+	</script>
+</body>
+</html>

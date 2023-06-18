@@ -1,0 +1,144 @@
+.det{
+	background: url("img/tour-ban.jpg") center fixed rgba(0, 0, 0, 0.6);
+	height: 520px;
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+.det img{
+	width: 100%;
+}
+.det h1{
+	color: #fff;
+	text-align: center;
+	margin-top: 250px;
+	font-size: 50px;
+}
+.det span{
+	font-style: italic;
+	color: #00a5ff;
+}
+
+/*date*/
+.japan{
+	margin: 80px 70px;
+}
+.date{
+	background: #00a5ff;
+	color: #fff;
+	margin-left: 2px;
+	text-align: center;
+	line-height: 0.5;
+	padding: 0 8px;
+}
+
+/*view*/
+.foto img{
+	width: 564px;
+	height: 250px;
+	margin-left: 25px;
+}
+.view p{
+	margin: 0 74px;
+	line-height: 1.5;
+}
+.view h3{
+	margin: 0 20px 20px 40px;
+}
+.epic h2{
+	margin: 0 50px 30px 70px;
+}
+.view{
+	background: #ebf8ff;
+	margin-left: 70px;
+	padding: 20px 0;
+	height: 208px;
+}
+.view i, .view-1 i{
+	margin-right: 15px;
+}
+.foto-1{
+	margin-right: 20px;
+}
+.foto-1 img{
+	width: 560px;
+	height: 250px;
+	margin-left: 70px;
+}
+.view-1{
+	background: #ebf8ff;
+	height: 208px;
+	padding: 20px;
+}
+.day-2{
+	margin: 50px 0;
+}
+.view-1 p{
+	margin-left: 52px;
+	line-height: 1.5;
+	margin-right: 40px;
+}
+.view-1 h3{
+	margin-left: 20px;
+}
+
+/*galeri*/
+.galeri{
+	padding-left: 70px;
+	padding-top: 50px;
+	margin-top: 100px;
+	padding: 50px 0 80px 70px;
+	background: #ebf8ff;
+}
+.galeri img{
+	height: 330px;
+}
+.galeri-1 img{
+	width: 750px;
+}
+.galeri-2 img{
+	width: 460px;
+	margin-left: -25px;
+}
+.galeri-3, .galeri-4, .galeri-5, .galeri-6{
+	margin-top: -5px;
+}
+.galeri-4, .galeri-5, .galeri-6{
+	margin-left: -55px;
+}
+.galeri-6 img{
+	width: 390px;
+}
+
+/*recom*/
+.rekom{
+	margin: 100px 70px;
+}
+.slider {
+    width: 90%;
+}
+.slick-slide img {
+    width: 500px;
+}
+.pic{
+	margin-left: 20px;
+	position: relative;
+	display: inline-block;
+}
+.pic img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.pic .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	font-size: 25px;
+}

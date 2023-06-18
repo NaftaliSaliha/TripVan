@@ -1,0 +1,455 @@
+@font-face{
+	font-family: lr;
+	src: url("font/Lato-Regular.ttf");
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: lr;
+	overflow-x: hidden;
+}
+.col-1{
+	width: 8.33333%;
+}
+.col-2{
+	width: 16.66667%;
+}
+.col-3{
+	width: 25%;
+}
+.col-4{
+	width: 33.33333%;
+}
+.col-5{
+	width: 41.66667%;
+}
+.col-6{
+	width: 50%;
+}
+.col-7{
+	width: 58.33333%;
+}
+.col-8{
+	width: 66.66667%;
+}
+.col-9{
+	width: 75%;
+}
+.col-10{
+	width: 83.33333%;
+}
+.col-11{
+	width: 91.66667%;
+}
+.col-12{
+	width: 100%;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+	position: relative;
+	float: left;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+
+/*header-top*/
+.header-top{
+	border-bottom: solid 1px #ebebeb;
+	padding-left: 50px;
+}
+.dropdown a{
+	display: block;
+	padding: 5px;
+}
+.dropdown{
+	background: #FFF;
+	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.175);
+	z-index: 1;
+	visibility: hidden;
+	position: absolute;
+	padding: 10px;
+	min-width: 100px;
+}
+.dropdown a:hover{
+	color: blue;
+}
+.menu{
+	display: inline-block;
+	position: relative;
+	padding: 15px 0 15px 50px;
+}
+.menu:hover .dropdown{
+	visibility: visible;
+	margin-top: 15px;
+}
+.menu a{
+	color: black;
+}
+.menu a img{
+	margin-right: 5px;
+	width: 16px;
+	height: 11px;
+}
+.menu a i{
+	margin: 0 10px;
+	transform: translate(0, 0) rotate(0);
+	transition: 0.3s ease;
+}
+.menu:hover .fa-angle-down{
+	transform: translate(0, 0) rotate(180deg);
+	transition: 0.3s ease;
+}
+.header-top i{
+	color: #00356e;
+}
+
+/*header-bottom*/
+.header-bottom{
+	padding: 0 100px;
+}
+.logo span{
+	color: blue;
+}
+.logo{
+	margin-right: 10px;
+}
+.menu1{
+	margin-top: 20px;
+}
+.menu1 a{
+	color: black;
+}
+.space{
+	display: inline-block;
+	margin-left: -20px;
+}
+.search{
+	border: 1px solid #00356e;
+	border-radius: 50px;
+	padding: 10px 0;
+	margin-top: 15px;
+}
+.search input{
+	background: none;
+	outline: none;
+	border: none;
+	float: left;
+}
+.search input{
+	margin-left: 15px;
+}
+.header-bottom i{
+	color: #00356e;
+}
+.btn i{
+	background: #00356e;
+	color: #FFF;
+	padding: 10px;
+	border-radius: 50%;
+	font-size: 10px;
+	margin: -5px;
+	margin-left: 5px;
+}
+
+/*slider*/
+.carousel{
+	height: 525px;
+}
+.carousel-cell{
+	width: 100%;
+	height: 100%;
+}
+.carousel-cell > img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.carousel-cell > .caption{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	margin-top: 200px;
+}
+.carousel-cell > .caption h1{
+	color: #fff;
+	font-size: 50px;
+	width: 800px;
+	margin: auto;
+}
+
+/*best*/
+.best{
+	background: url("img/background.jpg") center fixed;
+	padding: 50px 0;
+	background-size: cover;
+}
+.best h1{
+	text-align: center;
+	padding-bottom: 20px;
+	color: #fff;
+}
+.tour-1 img{
+	width: 240px;
+	height: 180px;
+	margin-left: 20px;
+}
+.tour-1{
+	background: #fff;
+	opacity: 0.9;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	padding: 10px 0 20px 0;
+	color: black;
+}
+.text{
+	margin-top: -15px;
+}
+.text p{
+	margin-right: 10px;
+	margin-left: 20px;
+	margin-bottom: 48px;
+}
+.tour-1 h3{
+	margin-left: 20px;
+}
+.text h4{
+	margin-left: 20px;
+}
+.pad{
+	margin-left: 120px;
+}
+.text a{
+	margin-left: 20px;
+	padding: 10px 20px;
+	transition: 0.3s ease;
+	color: blue;
+	border: 1px solid blue;
+}
+.text a:hover{
+	transition: 0.3s ease;
+	background: blue;
+	color: #FFF;
+}
+
+/*content*/
+.content{
+	padding: 150px 0;
+}
+.content-1 p, .content-1 h1,
+.content-1 h2{
+	padding: 0 50px;
+}
+.content-1 p{
+	line-height: 2;
+}
+
+/*top*/
+.top{
+	padding: 100px 0;
+	text-align: center;
+}
+.top-1{
+	background: url("img/jepang.jpg") center;
+	height: 400px;
+}
+.cap{
+	background: #FFF;
+	opacity: 0.9;
+	margin: 250px 30px 0 30px;
+	color: black;
+	padding: 5px 0;
+	box-shadow: 7px 4px 5px rgba(0,0,0,0.2);
+}
+.top-2{
+	background: url("img/korea.jpg") center;
+	height: 400px;
+}
+.top-3{
+	background: url("img/amerika.jpg") center;
+	height: 400px;
+}
+.top-4{
+	background: url("img/singapur.jpg") center;
+	height: 400px;
+}
+
+/*unggul*/
+.unggul{
+	padding: 30px 0 60px 0;
+}
+.unggul-1{
+	margin-left: 80px;
+	margin-bottom: 50px;
+	line-height: 1.5;
+	border: 2px solid black;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px 4px rgba(0,0,0,0.3);
+}
+.unggul-1 p{
+	margin-right: 40px;
+}
+.unggul-1 i, .unggul-1 h3{
+	color: #008cff;
+}
+.unggul-1 i{
+	font-size: 40px;
+}
+.bay p{
+	margin-left: 40px;
+}
+.bay i{
+	margin-top: 15px;
+}
+.bay{
+	text-align: center;
+}
+
+/*footer-top*/
+.footer-top{
+	background: #001e2e;
+	color: #FFF;
+	padding: 20px 0 40px 50px;
+}
+.help p, .help h3{
+	padding-left: 50px;
+}
+.help i{
+	margin-right: 10px;
+}
+.footer-top a{
+	color: #FFF;
+}
+.footer-top li{
+	margin-bottom: 10px;
+}
+
+/*footer-bottom*/
+.footer-bottom{
+	background: #001621;
+	color: #fff;
+	text-align: center;
+	border-top: 2px solid #008cff;
+}
+
+@media (max-width: 768px){
+	
+}
+
+@media (max-width: 560px) {
+	.wrap{
+		width: 60%;
+	}
+	.header-top{
+		padding-left: 0;
+		padding: 10px 5px;
+	}
+	.menu{
+		padding: 0;
+	}
+	.account{
+		width: 40%;
+	}
+	.header-bottom{
+		padding: 0;
+		padding-left: 5px;
+		padding-bottom: 25px;
+	}
+	.logo{
+		width: 100%;
+		text-align: center;
+	}
+	.logo h1{
+		margin-bottom: 0;
+	}
+	.menu1{
+		width: 100%;
+		text-align: center;
+	}
+	.space a{
+		margin: 0 10px;
+	}
+	.ber{
+		margin-right: 15px;
+	}
+	.search{
+		width: 90%;
+		margin-left: 15px;
+	}
+	.search input{
+		width: 300px;
+	}
+	.carousel-cell{
+		width: 100%;
+		height: 100%;
+	}
+	.carousel-cell > img{
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+	.carousel-cell > .caption{
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		text-align: center;
+		margin-top: 200px;
+	}
+	.carousel-cell > .caption h1{
+		color: #fff;
+		font-size: 30px;
+		width: 250px;
+	}
+	.content{
+		padding: 50px 0;
+	}
+	.content-1{
+		width: 100%;
+	}
+	.content-2 img{
+		width: 330px;
+		margin-left: 40px;
+		margin-top: 20px;
+	}
+	.pad{
+		margin-left: 0;
+	}
+	.tour-1{
+		width: 90%;
+	}
+	.tour-1 img{
+		width: 220px;
+		height: 150px;
+		margin-left: 70px;
+	}
+	.text{
+		width: 100%;
+		text-align: center;
+	}
+	.tour-1 p{
+		margin-bottom: 30px;
+	}
+	.top-1, .top-2, .top-3, .top-4{
+		width: 50%;
+	}
+	.unggul-1{
+		margin-left: 40px;
+		width: 80%;
+	}
+	.footer-top, .footer-top p, .footer-top h3{
+		padding-left: 0;
+	}
+	.help, .about, .discover, .produk{
+		width: 50%;
+	}
+	.footer-top{
+		padding-left: 20px;
+	}
+}
